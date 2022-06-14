@@ -6,14 +6,12 @@ import { StateContext } from "../context/StateContext";
 import React from "react";
 function MyApp({ Component, pageProps }) {
   return (
-    <React.StrictMode>
-      <StateContext>
-        <Layout>
-          <Toaster />
-          <Component {...pageProps} />
-        </Layout>
-      </StateContext>
-    </React.StrictMode>
+    <StateContext>
+      <Layout>
+        <Toaster />
+        <Component {...pageProps} />
+      </Layout>
+    </StateContext>
   );
 }
 
