@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import {
@@ -30,7 +31,6 @@ const ProductDetails = ({ product, products }) => {
             <img
               src={urlFor(image && image[index])}
               className="product-detail-image"
-              alt="image"
             />
           </div>
           <div className="small-images-container">
@@ -42,7 +42,6 @@ const ProductDetails = ({ product, products }) => {
                   i === index ? "small-image selected-image" : "small-image"
                 }
                 onMouseEnter={() => setIndex(i)}
-                alt="image"
               />
             ))}
           </div>
