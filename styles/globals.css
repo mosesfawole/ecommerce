@@ -673,7 +673,7 @@ span.text-red {
     height: 350px;
   }
   .cart-container {
-    width: 415px;
+    width: 400px;
     padding: 10px;
   }
   .cart-heading {
@@ -696,7 +696,7 @@ span.text-red {
     width: 150px;
   }
   .product-detail-container {
-    margin: 20px;
+    margin: 2px;
   }
 
   .item-desc .flex {
